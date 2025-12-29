@@ -5,6 +5,12 @@ environment{
 }
 
     stages {
+
+     stage('Clean Workspace') {
+            steps {
+                cleanWs()
+        }
+    }
         stage('Git Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/princekumar404/Wanderlust-Mega-Project.git'
