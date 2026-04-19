@@ -92,7 +92,7 @@ export default function BlogFeed() {
               What's new?
             </div>
             <h2 className="mb-2 cursor-text text-xl font-semibold dark:text-dark-primary">
-              Latest Posts
+             Hi This is Latest Posts
             </h2>
             <div className="flex flex-col gap-4">
               {latestPosts.length === 0
